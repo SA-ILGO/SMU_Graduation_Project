@@ -40,6 +40,14 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    private void OnInteract(InputAction.CallbackContext context)
+    {
+        if (context.performed)
+        {
+
+        }
+    }
+
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.green;
